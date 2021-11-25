@@ -9,7 +9,14 @@
     "preview": "astro preview"
   },
   "devDependencies": {
+    "@astrojs/renderer-react": "^0.3.0",
+    "@types/react": "^17.0.37",
     "astro": "^0.21.3",
-    "@astrojs/renderer-react": "^0.3.0"
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.4",
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "styled-components": "^5.3.3"
   }
 }
