@@ -1,10 +1,14 @@
 ---
 import CommonHead from '../components/CommonHead.astro';
 import Header from '../components/Header.tsx';
+import Feed from '../components/Feed.astro';
 ---
+
 <html lang="en">
-<CommonHead/>
-<body>
-    <Header client:load/>
-</body>
+  <head></head>
+  <CommonHead />
+  <body class="bg-gray-50 dark:bg-gray-900">
+    <Header client:load />
+    <Feed />
+  </body>
 </html>
